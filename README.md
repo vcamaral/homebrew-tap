@@ -9,7 +9,7 @@ brew install --cask vcamaral/tap/notchhider   # hides the notch
 
 | Cask | App |
 |---|---|
-| `utter` | [Utter](https://github.com/vcamaral/utter) — local voice dictation with Whisper |
+| `utter` | [Utter](https://github.com/vcamaral/Utter) — local voice dictation with Whisper |
 | `notchhider` | [NotchHider](https://github.com/vcamaral/NotchHider) — hides the notch with a black band on the wallpaper |
 
 The apps aren't notarized yet, so the casks remove the quarantine flag after installing; macOS won't ask you to

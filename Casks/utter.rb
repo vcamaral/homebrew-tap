@@ -2,10 +2,10 @@ cask "utter" do
   version "1.0.0"
   sha256 "ecceddffd933fc8d1e9723febeb85ca180626e805db2bc9d09b87462099085db"
 
-  url "https://github.com/vcamaral/utter/releases/download/v#{version}/Utter.dmg"
+  url "https://github.com/vcamaral/Utter/releases/download/v#{version}/Utter.dmg"
   name "Utter"
   desc "Local voice dictation with Whisper"
-  homepage "https://github.com/vcamaral/utter"
+  homepage "https://github.com/vcamaral/Utter"
 
   auto_updates true
   depends_on arch: :arm64
