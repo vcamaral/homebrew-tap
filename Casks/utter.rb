@@ -15,7 +15,7 @@ cask "utter" do
 
   # Not notarized: spare the Gatekeeper "Open Anyway" step.
   postflight_steps do
-    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/Utter.app"],
+    run "/usr/bin/xattr", args:           ["-dr", "com.apple.quarantine", "{{appdir}}/Utter.app"],
                           writable_paths: ["{{appdir}}/Utter.app"]
   end
 

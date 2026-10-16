@@ -13,7 +13,7 @@ cask "notchhider" do
 
   # Not notarized: spare the Gatekeeper "Open Anyway" step.
   postflight_steps do
-    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/NotchHider.app"],
+    run "/usr/bin/xattr", args:           ["-dr", "com.apple.quarantine", "{{appdir}}/NotchHider.app"],
                           writable_paths: ["{{appdir}}/NotchHider.app"]
   end
 
