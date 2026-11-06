@@ -1,6 +1,6 @@
 cask "netstatus" do
   version "1.0.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "9a3f0807e5de6e0604765ae3408fa7dc9db8461e097e92c65630a3a28447bd6d"
 
   url "https://github.com/vcamaral/NetStatus/releases/download/v#{version}/NetStatus.dmg"
   name "NetStatus"
